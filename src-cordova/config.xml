@@ -21,5 +21,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-device-motion" spec="^1.2.5" />
+    <plugin name="cordova-volume-control" spec="^0.1.10" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
